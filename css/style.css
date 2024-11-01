@@ -1,0 +1,58 @@
+/* Background and Centering */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #333333;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Clock Container */
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #333333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Time Display */
+.time {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* AM/PM Display */
+.ampm {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* Footer Styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #222;
+  text-align: center;
+  font-size: 14px;
+  color: #bbb;
+}
+
+footer a {
+  color: #fff6f6;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
